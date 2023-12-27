@@ -78,6 +78,14 @@
     <Compile Include="Creational\SingletonPattern\Singleton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Structural\AdapterPattern\IPaymentProvider.cs" />
+    <Compile Include="Structural\AdapterPattern\PaymentStatus.cs" />
+    <Compile Include="Structural\AdapterPattern\PayUAdaptor.cs" />
+    <Compile Include="Structural\AdapterPattern\PayUPayApi.cs" />
+    <Compile Include="Structural\AdapterPattern\PayUStatus.cs" />
+    <Compile Include="Structural\AdapterPattern\RazorPayAdaptor.cs" />
+    <Compile Include="Structural\AdapterPattern\RazorPayApi.cs" />
+    <Compile Include="Structural\AdapterPattern\RazorPayStatus.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
