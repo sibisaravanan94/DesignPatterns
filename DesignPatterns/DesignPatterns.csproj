@@ -43,6 +43,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Creational\AbstractFactoryPattern\Button.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\DarkButton.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\DarkDropdown.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\DarkRadioButton.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\DarkThemeFactory.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\Dropdown.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\IThemeFactory.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\lightButton.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\LightDropdown.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\LightRadioButton.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\LightThemeFactory.cs" />
+    <Compile Include="Creational\AbstractFactoryPattern\RadioButton.cs" />
     <Compile Include="Creational\BuilderPattern\Student.cs" />
     <Compile Include="Creational\FactoryMethodPattern\Button.cs" />
     <Compile Include="Creational\FactoryMethodPattern\ButtonType.cs" />
