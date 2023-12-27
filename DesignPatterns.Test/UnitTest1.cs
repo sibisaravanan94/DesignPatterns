@@ -1,0 +1,13 @@
+using Xunit;
+
+namespace DesignPatterns.Test
+{
+    public class UnitTest1
+    {
+        [Fact]
+        public void Test1()
+        {
+
+        }
+    }
+}
