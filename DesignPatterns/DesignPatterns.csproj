@@ -48,6 +48,12 @@
     <Compile Include="Creational\PrototypePattern\BackgroundObjectRegistry.cs" />
     <Compile Include="Creational\PrototypePattern\BackgroundObjectType.cs" />
     <Compile Include="Creational\PrototypePattern\IGraphicalObject.cs" />
+    <Compile Include="Creational\SimpleFactoryPattern\Button.cs" />
+    <Compile Include="Creational\SimpleFactoryPattern\ButtonType.cs" />
+    <Compile Include="Creational\SimpleFactoryPattern\RectangleButton.cs" />
+    <Compile Include="Creational\SimpleFactoryPattern\RoundButton.cs" />
+    <Compile Include="Creational\SimpleFactoryPattern\SimpleButtonFactory.cs" />
+    <Compile Include="Creational\SimpleFactoryPattern\SquareButton.cs" />
     <Compile Include="Creational\SingletonPattern\Singleton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
