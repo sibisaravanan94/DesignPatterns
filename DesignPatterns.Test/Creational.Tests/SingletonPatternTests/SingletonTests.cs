@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 using Xunit;
 using DesignPatterns.Creational.SingletonPattern;
 
-namespace DesignPatterns.Test.Creational.Tests
+namespace DesignPatterns.Test.Creational.Tests.SingletonPatternTests
 {
     public class SingletonTests
     {
