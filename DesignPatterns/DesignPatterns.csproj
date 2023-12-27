@@ -44,6 +44,15 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Creational\BuilderPattern\Student.cs" />
+    <Compile Include="Creational\FactoryMethodPattern\Button.cs" />
+    <Compile Include="Creational\FactoryMethodPattern\ButtonType.cs" />
+    <Compile Include="Creational\FactoryMethodPattern\IButtonFactory.cs" />
+    <Compile Include="Creational\FactoryMethodPattern\RectangleButton.cs" />
+    <Compile Include="Creational\FactoryMethodPattern\RectangleButtonFactory.cs" />
+    <Compile Include="Creational\FactoryMethodPattern\RoundButton.cs" />
+    <Compile Include="Creational\FactoryMethodPattern\RoundButtonFactory.cs" />
+    <Compile Include="Creational\FactoryMethodPattern\SquareButton.cs" />
+    <Compile Include="Creational\FactoryMethodPattern\SquareButtonFactory.cs" />
     <Compile Include="Creational\PrototypePattern\BackgroundObject.cs" />
     <Compile Include="Creational\PrototypePattern\BackgroundObjectRegistry.cs" />
     <Compile Include="Creational\PrototypePattern\BackgroundObjectType.cs" />
