@@ -44,6 +44,10 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Creational\BuilderPattern\Student.cs" />
+    <Compile Include="Creational\PrototypePattern\BackgroundObject.cs" />
+    <Compile Include="Creational\PrototypePattern\BackgroundObjectRegistry.cs" />
+    <Compile Include="Creational\PrototypePattern\BackgroundObjectType.cs" />
+    <Compile Include="Creational\PrototypePattern\IGraphicalObject.cs" />
     <Compile Include="Creational\SingletonPattern\Singleton.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
