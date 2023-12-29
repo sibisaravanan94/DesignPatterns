@@ -4,23 +4,21 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using DesignPatterns.Behavioural.ObserverPattern;
+using Xunit;
 
-namespace DesignPatterns
+namespace DesignPatterns.Test.Behavioural.Tests.ObserverPatternTests
 {
-    internal class Program
+    public class ObserverTests
     {
-        static void Main(string[] args)
+        [Fact]
+        public void testOberver()
         {
             BitCoinManager manager = new BitCoinManager();
             manager.addConsumer(new EmailConsumer());
             manager.addConsumer(new SMSConsumer());
 
             manager.updateBitCoin(90);
-            string x = Console.ReadLine();
-            manager.updateBitCoin(91);
-            x = Console.ReadLine();
-            manager.updateBitCoin(80);
-            x = Console.ReadLine();
         }
+        
     }
 }

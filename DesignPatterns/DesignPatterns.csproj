@@ -49,6 +49,10 @@
     <Compile Include="Behavioural\ObserverPattern\IBitCoinConsumer.cs" />
     <Compile Include="Behavioural\ObserverPattern\Publisher.cs" />
     <Compile Include="Behavioural\ObserverPattern\SMSConsumer.cs" />
+    <Compile Include="Behavioural\StratergyPattern\FourWheelerStratergy.cs" />
+    <Compile Include="Behavioural\StratergyPattern\INavigationStratergy.cs" />
+    <Compile Include="Behavioural\StratergyPattern\Navigator.cs" />
+    <Compile Include="Behavioural\StratergyPattern\TwoWheelerStratergy.cs" />
     <Compile Include="Creational\AbstractFactoryPattern\Button.cs" />
     <Compile Include="Creational\AbstractFactoryPattern\DarkButton.cs" />
     <Compile Include="Creational\AbstractFactoryPattern\DarkDropdown.cs" />

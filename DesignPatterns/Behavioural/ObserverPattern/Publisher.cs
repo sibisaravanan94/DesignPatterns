@@ -8,8 +8,8 @@ namespace DesignPatterns.Behavioural.ObserverPattern
 {
     public abstract class Publisher
     {
-        public List<IBitCoinConsumer> consumers { get; set; }
-        public void publish(double amount)
+        private List<IBitCoinConsumer> consumers { get; set; } = new List<IBitCoinConsumer>();
+        protected void publish(double amount)
         {
             foreach(IBitCoinConsumer consumer in consumers)
             {
