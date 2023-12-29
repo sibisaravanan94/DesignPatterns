@@ -86,6 +86,15 @@
     <Compile Include="Structural\AdapterPattern\RazorPayAdaptor.cs" />
     <Compile Include="Structural\AdapterPattern\RazorPayApi.cs" />
     <Compile Include="Structural\AdapterPattern\RazorPayStatus.cs" />
+    <Compile Include="Structural\DecoratorPattern\BaseDecorator.cs" />
+    <Compile Include="Structural\DecoratorPattern\CompressDataSource.cs" />
+    <Compile Include="Structural\DecoratorPattern\EncryptDataSource.cs" />
+    <Compile Include="Structural\DecoratorPattern\FileDataSource.cs" />
+    <Compile Include="Structural\DecoratorPattern\IDataSource.cs" />
+    <Compile Include="Structural\FlyWeightPattern\BulletRegistry.cs" />
+    <Compile Include="Structural\FlyWeightPattern\BullerType.cs" />
+    <Compile Include="Structural\FlyWeightPattern\Bullet.cs" />
+    <Compile Include="Structural\FlyWeightPattern\FlyingBullet.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
