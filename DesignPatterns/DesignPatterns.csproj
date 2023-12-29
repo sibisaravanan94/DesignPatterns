@@ -43,6 +43,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Behavioural\ObserverPattern\BitCoin.cs" />
+    <Compile Include="Behavioural\ObserverPattern\BitCoinManager.cs" />
+    <Compile Include="Behavioural\ObserverPattern\EmailConsumer.cs" />
+    <Compile Include="Behavioural\ObserverPattern\IBitCoinConsumer.cs" />
+    <Compile Include="Behavioural\ObserverPattern\Publisher.cs" />
+    <Compile Include="Behavioural\ObserverPattern\SMSConsumer.cs" />
     <Compile Include="Creational\AbstractFactoryPattern\Button.cs" />
     <Compile Include="Creational\AbstractFactoryPattern\DarkButton.cs" />
     <Compile Include="Creational\AbstractFactoryPattern\DarkDropdown.cs" />
